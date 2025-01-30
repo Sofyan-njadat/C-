@@ -50,7 +50,7 @@
                                                 </div>
                                                 <div>
                                                 <div class="col-6 mb-3">
-                                                    <asp:Button runat="server" OnClick="Search_Click1" text="search"/>
+                                                    <asp:Button runat="server" OnClick="Search_Click1" text="Confirm Email"/>
 
                                                     </div>
                                                 </div>
@@ -90,7 +90,7 @@
                                                     </p>
                                                 </div>
                                                 <div>
-                                                    <asp:Button runat="server" OnClick="Unnamed_Click" Text="edit" />
+                                                    <asp:Button runat="server" OnClick="Unnamed_Click" Text="Edit" />
                                                 </div>
                                             </div>
 

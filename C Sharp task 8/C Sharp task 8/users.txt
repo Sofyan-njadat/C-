@@ -1,3 +1,4 @@
 sofyan,njadat,sfnnj@gmail.com,123123,0797265279,male
 sofyan,njadat,sfnnj@gmail.com,123456,0797265279,male
 sfn,nj,sss@gmail.com,010203,0102030102,male
+sofyan,nj.,sfnnj08@gmail.com,nj123,0797265279,male0101

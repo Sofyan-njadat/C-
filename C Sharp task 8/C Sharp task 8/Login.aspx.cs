@@ -28,11 +28,36 @@ namespace C_Sharp_task_8
                 string[] info = user.Split(',');
                 if (info[2] == email && info[3] == pass)
                 {
+                    string data = Server.MapPath("userss.txt");
+                    if (!File.Exists(data))
+                    {
+                        using (StreamWriter sw = File.CreateText(data))
+                        {
+                            sw.WriteLine($"{info[0]},{info[1]},{info[2]},{info[3]},{info[4]},{info[5]}");
+                        }
+
+                    }
+                    else
+                    {
+                        using (StreamWriter sw1 = new StreamWriter(data))
+
+                        {
+                            sw1.WriteLine($"{info[0]},{info[1]},{info[2]},{info[3]},{info[4]},{info[5]}");
+
+
+                        }
+                    }
+
+
                     Response.Redirect("Profile.aspx");
+
                     return;
                 }
 
             }
+
+
+
         }
     }
 }
