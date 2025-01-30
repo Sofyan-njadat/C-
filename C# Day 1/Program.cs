@@ -21,6 +21,7 @@ namespace C__Day_1
             //q2
 
             double x = 3.14159;
+           // double x = 3.14159;
             Console.WriteLine(x);
 
             string name1 = "sofyan";
